@@ -1,0 +1,21 @@
+check all packages that is installed
+    pip freeze
+
+Launch  virtual environment
+    pipenv shell
+
+Django Rest framework 
+    pip install django
+    pip install djangorestframework
+    django-admin startproject example .
+    ./manage.py migrate
+    ./manage.py createsuperuser
+
+Install package for dev environment
+    pipenv install pillow --dev
+
+Start server
+    python manage.py runserver
+
+migrate
+    python manage.py migrate
