@@ -19,3 +19,12 @@ Start server
 
 migrate
     python manage.py migrate
+
+Activate environment
+    env\Scripts\activate
+
+Store requirements (https://docs.python.org/3/tutorial/venv.html)
+     pip freeze > requirements.txt
+
+Install from requirements
+    pip install -r requirements.txt
